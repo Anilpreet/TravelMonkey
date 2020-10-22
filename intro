@@ -1,0 +1,66 @@
+
+INTRODUCTION
+The Travel Agency application is a program made for customers to discover various travel packages by the agency. The user can check out information of a travel destination and check out the packages provided by the agency. The packages are made to be really informative like telling the user about price, hotel where the user will be staying, the time for which the user will be staying and the attractions which will be covered in the journey. The user can then sign in to his ID in the program or make a new one, signing in will auto-fill information  and the date of journey and no. Of people travelling can be selected.  
+This software also allows the admin of the program to edit, remove and add new travel destinations as well as packages easily allowing a lot of room for future expansion and modifications. The admin can also easily check the sale of packages and the information of various customers which can be accessed from their IDs.  
+A Travel agency program is a software built to handle the primary functions of a travel agency which is to allow customers to discover their plans and buy the one best fitted for them.
+Any travel agency owner who has access to this program can flawlessly go about his workflow. There would no need of any log register, time consuming communication using calls nor any confusion required.
+Everything from prices to giving details about a plan/package can be taken care of.  Admin can access the database on any computer and storing this would be very easy. Even in case of an emergency, data could be easily recovered.
+The layout is very simple and does not require any complicated knowledge about programming or any other field of computer science.One of the advantages of having a software operated system is that there would no limit for future enhancements or modifications. 
+This application is inspired from the idea of giving small businesses access to customers which were previously out of their reach, improving communication and customer relationship at the same time being encouraging to the people with least knowledge of using computer programs to use and benefit themselves from it.   
+
+
+
+USER MANUEL
+When the user starts the program he is asked to choose one of five options. The first options says see our packages which when selected pops to a new window with names of all the destinations the user can travel to then he is asked to write the name of one destination to see more information and packages offered by the agency for the destinations,  then the user can choose one of the packages and buy it and his details are automatically filled by asking his mobile number and password and only date of journey and people travelling is asked from the user after which a conformation screen is shown.
+The second option allows user to edit  his account details but first he has to type his mobile no. And password to confirm that its the user logging in then his details are shown and for individual detail the changing option is shown the user can either type 0 to keep the same detail or type a new detail. After all new details are filled the new ID information is registered.
+The third option is for the admin, but first the username and password is asked access the option. If the username and password is right the admin now gets 3 options first is to edit, insert or delete packages which on selection gives the admin 5 options to insert , delete, edit, to see all packages or to go back.  The second option “”check details or delete an account”  shifts the user to a new window where he gets 3 options : to delete an account, see all  accounts or  to exit. The third option in Login as admin is to see packages bought.
+The fourth of in the home screen is to make a new id in which the user is asked for his name , mobile no., password, address and email Id and a after filing in the details the new id is saved into the computer.
+The fifth option is to exit the program.
+
+
+
+
+
+HEADER FILES
+1. fstream.h  For functions like ‘cin’ , ‘cout’ ‘seekg’ ‘seekp’ etc.
+2. conio.h     For functions clrscr’ and ’getch’
+3. stdio.h       For the functions ‘gets’ and ‘puts’
+4. process.h   For the function ‘exit’
+5. string.h      For the functions ‘strcpy’ and ‘strcmp’
+6. graphics.h For functions like ‘outtextxy’ , ‘setcolor’ etc
+7. ctype.h  For function ‘printf’ 
+
+CLASSES AND OBJECTS
+Class packages
+- class to perform operations on the agency’s travel packages
+- object for this class-p,a,s
+Class cust
+- class to perform operations on the accounts 
+- object for this class-c
+Class ticket
+- class to save details of the purchased package and account from which it was bought
+- object for this class-j
+
+
+
+MODULES USED
+title() to draw the company’s name on every screen
+packagefunction() to perform insertion,deletion or editing of packages
+accountfunction() to perform deletion or editing of accounts
+seepackages() to show the name and then details of the packages
+editdetails()  to edit the details of an account
+home() to show the options on the main screen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
